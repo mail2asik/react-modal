@@ -7,7 +7,7 @@ const ModalDialog = (props) => {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title" id="exampleModalLabel">{props.content.author}</h5>
-            <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={() => props.onClose()}>
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={() => props.closeDialog()}>
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
