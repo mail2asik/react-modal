@@ -47,7 +47,7 @@ class App extends Component {
           <div className="card-body">
             <h5 className="card-title">{name}</h5>
             <p className="card-text">{content.philosophy}</p>
-            <input type="button" onClick={ () => this.onOpen(content) } value="Toggle" className="btn btn-sm btn-dark"/>
+            <input type="button" onClick={ () => this.onOpen(content) } value="Modal" className="btn btn-sm btn-dark"/>
           </div>
         </div>
       </div>
